@@ -1,3 +1,7 @@
+import com.arenafighter.core.Controller;
+import com.console.View;
+import com.fighter.template.Fighter;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,7 +25,7 @@ public class Main {
         getFighter();
     }
 
-    public static void getList() {
+    public static void printListContents() {
         for (int i = 0; i < fighters.size(); i++) {
             view.printListContent(i, fighters.get(i).printPrimitiveOverview());
         }
@@ -29,7 +33,7 @@ public class Main {
 
     public static void getFighter() {
         view.printChooseText("fighter");
-        getList();
+        printListContents();
 
         int i = view.getLoopInput();
         fighters.get(i).printOverview();

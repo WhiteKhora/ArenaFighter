@@ -1,3 +1,6 @@
+package com.fighter.database;
+
+import com.fighter.template.*;
 public class Assassin extends Fighter {
 
     public Assassin(String name) {

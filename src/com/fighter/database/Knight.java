@@ -1,3 +1,7 @@
+package com.fighter.database;
+
+import com.fighter.template.*;
+
 public class Knight extends Fighter {
 
     public Knight(String name) {

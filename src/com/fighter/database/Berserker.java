@@ -1,3 +1,7 @@
+package com.fighter.database;
+
+import com.fighter.template.*;
+
 public class Berserker extends Fighter {
 
     public Berserker(String name) {

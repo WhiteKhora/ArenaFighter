@@ -1,0 +1,98 @@
+README.md
+in Modules aufteilen
+Enums - colors
+vorher schon ein konzept ausdecken
+Comment your code - 
+	vergessen zu loeschen
+	intention behind the function
+
+	
+Welcome message
+	press ENTER
+	type name
+
+
+Game class
+	in the game class the controller class
+	saves all players
+		players have their fighter
+		
+
+
+View
+	Scanner is public - in some methods still created
+	Colors enum (colors)
+	
+	
+Package: PrintUtility
+printColors
+
+	
+
+Fighter
+Para construc fuer typ und dann ueber classe super(construc von fighter)
+public abstract fighter (vorlage)
+abstract value
+
+
+Types
+make to enum (FighterTypes)
+
+
+
+
+
+
+
+
+4 fighter classes
+
+Assasisin - +crit damage, -health, +damage
+Ranger - +crit chance
+Berserker - +health, +damage
+Knight - +armor
+
+health
+damage
+armor
+crit chance
+crit damage
+
+
+CLASSES:
+ 
+FIGHTER (Base Stats) -> Ass, Ranger, Bers, Knight (Bonus Stats)
+
+
+ToDo:
+Create multiple fighters 
+make game class which handles the loop
+
+make Players
+
+
+
+Test Entry: 392 - Test Title
+
+
+own tenant
+copy application and access
+copy sharepoint
+create automation
+create 2 seperate admin accounts
+configure conditional access policy -> MFA
+
+
+Visual Studio Subscription
+
+Overview
+Severity	C
+Status	Open
+Support request ID	2210110050002246
+https://portal.azure.com/#view/Microsoft_Azure_Support/SupportRequestDetails.ReactView/id/%2Fsubscriptions%2F1b795802-56ea-4f7f-8217-44873fde00e3%2Fproviders%2FMicrosoft.Support%2FsupportTickets%2F2210110050002246/portalJourney~/true
+Created on	Tue, Oct 11, 2022, 5:13:04 PM
+Created by	Dominik Rath
+Contact method	Email: dominik.rath@dynatrace.com
+Support plan	Basic support
+
+https://portal.azure.com/#view/Microsoft_Azure_Support/SupportRequestDetails.ReactView/id/%2Fsubscriptions%2F1b795802-56ea-4f7f-8217-44873fde00e3%2Fproviders%2Fmicrosoft.support%2Fsupporttickets%2F2210120050000288

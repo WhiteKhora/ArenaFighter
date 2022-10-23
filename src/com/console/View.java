@@ -1,3 +1,8 @@
+package com.console;
+
+import com.arenafighter.core.Controller;
+import com.fighter.template.Types;
+
 import java.util.List;
 import java.util.Scanner;
 
@@ -57,7 +62,7 @@ public class View {
         return scanner.nextLine();
     }
     public void printTypes(Types types) {
-        List<String> typesList = types.getEntries();
+        List<String> typesList = Types.getEntries();
 
         for (int i = 0; i < typesList.size() ; i++) {
             System.out.println(printCounter(i) + typesList.get(i));

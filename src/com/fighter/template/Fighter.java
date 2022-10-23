@@ -1,4 +1,8 @@
-public class Fighter {
+package com.fighter.template;
+
+import com.fighter.database.*;
+
+public abstract class Fighter {
     protected String name;
     protected String type;
     protected int health;

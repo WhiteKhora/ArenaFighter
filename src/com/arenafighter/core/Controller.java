@@ -1,3 +1,7 @@
+package com.arenafighter.core;
+
+import com.fighter.template.Fighter;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -12,7 +16,7 @@ public class Controller {
 
 
 
-    public Fighter createFighter(String name, String type) {
+    public static Fighter createFighter(String name, String type) {
         return Fighter.createFighter(name, type);
     }
 

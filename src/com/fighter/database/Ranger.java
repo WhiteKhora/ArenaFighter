@@ -1,3 +1,7 @@
+package com.fighter.database;
+
+import com.fighter.template.*;
+
 public class Ranger  extends Fighter {
 
     public Ranger(String name) {
